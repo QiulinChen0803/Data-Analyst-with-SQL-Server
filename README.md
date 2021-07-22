@@ -13,6 +13,9 @@
 - Creating and using variables for more efficient queries, and creating temporary tables
 
 ### Course 2: Introduction to Relational Databases in SQL
+- Transformed data sets step by step into the database schema on the right – only by executing SQL queries
+- Defined column data types, added primary keys and foreign keys
+- Specified relationships between tables to guarantee better data consistency and therefore quality
 
 ### Course 3: Intermediate SQL Server
 
