@@ -20,6 +20,20 @@
 ### Course 3: Intermediate SQL Server
 
 ### Course 4: Time Series Analysis in SQL Server
+- Used date functions and also combine DATEADD() with DATEDIFF() to round off to the nearest minute or hour
+- Learned how to use CAST(), CONVERT(), and FORMAT() to turn dates into strings for reporting
+- FORMAT() can be an order of magnitude slower than the others
+- Calendar tables
+- Converted strings into dates by CAST(), CONVERT(), and PARSE() functions, even when the string uses a different locale
+- TRY_CAST(), TRY_CONVERT(), and TRY_PARSE() are just as fast and are also type-safe: NULL value instead of an error when the string does not parse to a date
+- Learned how SQL Server keep track of time zones using offsets and how to translate dates between time zones and changing time zones altogether
+- Reviewed aggregation functions like COUNT(), MIN(), MAX(), etc.
+- Reviewed statistical aggregate functions like AVG(), STDEV(), and VAR()
+- Aggregate data using ROLLUP, CUBE, and GROUPING SETS
+- Time series problems: window functions are, both for ranking functions like ROW_NUMBER() and RANK(), but also for aggregate functions like SUM() or AVG()
+- Calculate running totals and moving averages over windows of data
+- Learned how to look backward and forward in time with LAG() and LEAD(), respectively
+- Learned how to calculate the maximum level of overlap, important for discovering concurrency in data sets
 
 ### Course 5: Functions for Manipulating Data in SQL Server
 
