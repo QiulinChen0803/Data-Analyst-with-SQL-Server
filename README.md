@@ -36,6 +36,14 @@
 - Learned how to calculate the maximum level of overlap, important for discovering concurrency in data sets
 
 ### Course 5: Functions for Manipulating Data in SQL Server
+- The most important data types supplied by SQL Server: Choosing the appropriate type for columns, variable or expression can make a big difference in the performance of the queries. There are three major categories of data types: numeric, date and time and characters. Data conversion was another topic. In some cases, this is done behind the scenes, by SQL Server and it is called implicit conversion. Other times, we need to explicitly convert your data.
+
+- The most important date and time functions: functions that return date and time information from the operating system. The most commonly used is GETDATE(). The functions returning parts of a date are also important. Some examples are: YEAR(), MONTH(), and DAY(). Then, we learned how to perform arithmetic operations on dates, using DATEADD() and DATEDIFF(). And you also know how to validate if an expression is a date.
+
+- Manipulating strings: the functions that look for an expression within an string and return its position. CHARINDEX() and PATINDEX() were discussed. 
+- Transforming the appearance of a string with functions like UPPER(), LOWER(), LEFT(), and RIGHT(); apply functions on groups of strings. It is now easy to create a string from parts or to break one into pieces by using built-in functions provided by SQL Server: STRING_AGG() and STRING_SPLIT().
+
+- Recognizing numeric data properties: aggregate data in your queries with SUM(), MIN(), MAX(), and AVG(). With the analytic functions, we can easily perform calculations on subsets of rows and retrieve them in your queries, without the need to use the 'GROUP BY' clause. These are: FIRST_VALUE(), LAST_VALUE(), LAG() and LEAD(). There are built-in functions for performing mathematical operations as well.
 
 ### Course 6: Database Design
 
