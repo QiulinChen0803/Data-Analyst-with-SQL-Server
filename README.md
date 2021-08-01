@@ -48,6 +48,13 @@
 ### Course 6: Database Design
 
 ### Course 7: Transactions and Error Handling in SQL Server
+- Studied how to handle errors in SQL Server; Learned how to use the TRY...CATCH construct; Analyzed the anatomy of the errors, explaining each part of them; Saw there are some errors that a CATCH block can't catch.
+- Used some functions that give us information about errors, such as ERROR_NUMBER(), ERROR_SEVERITY(), ERROR_STATE(), ERROR_LINE(), ERROR_PROCEDURE(), and ERROR_MESSAGE().
+- Demonstrated how to raise errors using RAISERROR and THROW, and saw the differences between both of them.
+- Explained the concept of transactions, and learned how to use the transaction statements, BEGIN TRAN, COMMIT TRAN, and ROLLBACK TRAN.
+- Practiced with the @@TRANCOUNT function, and with savepoints.
+- Controlled the errors in transactions with the use of XACT_ABORT and XACT_STATE.
+- Clarified the concept of concurrency; Explained the different isolation levels that SQL Server provides: READ UNCOMMITTED, READ COMMITTED, REPEATABLE READ, SERIALIZABLE and, SNAPSHOT; Learned the differences between them and whether they prevent some concurrency phenomena such as dirty reads, non-repeatable reads, and phantom reads.
 
 ### Course 8: Writing Functions and Stored Procedures in SQL Server
 
