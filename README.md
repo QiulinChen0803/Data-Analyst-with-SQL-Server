@@ -57,6 +57,12 @@
 - Clarified the concept of concurrency; Explained the different isolation levels that SQL Server provides: READ UNCOMMITTED, READ COMMITTED, REPEATABLE READ, SERIALIZABLE and, SNAPSHOT; Learned the differences between them and whether they prevent some concurrency phenomena such as dirty reads, non-repeatable reads, and phantom reads.
 
 ### Course 8: Writing Functions and Stored Procedures in SQL Server
+- Performing EDA on distributed transactional databases
+- Experience with built in SQL functions like CONVERT(), CAST(), DATEDIFF(), DATENAME(), DATEADD(), DATEPART(), and GETDATE()
+- Declare and store data in scalar and table variables.
+- Created, executed, updated, and deleted (CURD) user defined functions and stored procedures
+- Business case applicaiton (CapitalBikeShare data from capitalbikeshare.com and the YellowTripTaxi data from nyc.gov)
+- Effective error handling, the FORMAT() function, as well as data imputation techniques.
 
 ### Course 9: Building and Optimizing Triggers in SQL Server
 
