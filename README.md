@@ -65,5 +65,11 @@
 - Effective error handling, the FORMAT() function, as well as data imputation techniques.
 
 ### Course 9: Building and Optimizing Triggers in SQL Server
+- Explored how DML triggers are used and the alternatives that exist
+- Compared AFTER triggers and INSTEAD OF triggers and examined the use cases for each
+- Discussed the differences between DML, DDL, and logon triggers
+- Learned that triggers also have their limitations
+- Saw how to overcome these limitations by using triggers correctly
+- Analyzed the need for managing triggers. Managing implies removing unused triggers and optimizing existing ones after a proper investigation
 
 ### Course 10: Improving Query Performance in SQL Server
