@@ -73,3 +73,6 @@
 - Analyzed the need for managing triggers. Managing implies removing unused triggers and optimizing existing ones after a proper investigation
 
 ### Course 10: Improving Query Performance in SQL Server
+- Compared queries and said that based on the differences in time one would likely run slower or faster than the other. In reality, the time differences reported in the examples and exercises would be unnoticeable. In the real world, it would not be uncommon to work with large complex queries that run for ten minutes, one hour or more. This is where utilizing time statistics for query tuning performance is invaluable.
+- Provided a brief overview of query statistics, indexes, and execution plans. All of these are advanced topics with many entire books and websites devoted to each of these and other query performance tuning tools and commands. The use of SQL Server tools and commands discussed in this chapter may require elevated levels of database permissions. 
+- Communicating with your database administrator about your requirements before starting a project that may require analyzing query performance. When trying to tune query performance with any of the tools and commands available in SQL Server, don’t just rely on one. Each one can provide a different insight, and often they complement one another.
